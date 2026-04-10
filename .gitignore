@@ -1,0 +1,8 @@
+node_modules/
+**/node_modules/
+*.log
+client-dev.log
+server-dev.log
+.env
+.env.*
+!.env.example

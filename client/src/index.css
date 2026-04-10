@@ -1,0 +1,29 @@
+:root {
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 20%, #e2e8f0 0, transparent 30%),
+    radial-gradient(circle at 80% 0%, #e0f2fe 0, transparent 30%),
+    #f8fafc;
+  min-height: 100vh;
+  color: inherit;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 20px 96px;
+}
+
+a {
+  color: inherit;
+}
